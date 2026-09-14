@@ -1,0 +1,113 @@
+.mai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.mains {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.mains p {
+  color: rgb(124, 205, 124);
+  font-size: 20px;
+  font-weight: 50px;
+  margin-top: 5px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgb(124, 205, 124);
+}
+.div1 {
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  margin: 10px;
+  border: 2px solid rgb(173, 172, 172);
+  background-color: whitesmoke;
+}
+.div1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.mains1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+  gap: 5px;
+  width: 85%;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+.ite {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  padding: 5px;
+  padding-inline: 15px;
+  background-color: orange;
+  border-radius: 20px;
+}
+.it {
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  padding-inline: 15px;
+  background-color: orange;
+  border-radius: 20px;
+}
+.i {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.All {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 786px) {
+  .mains p {
+    padding: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(124, 205, 124);
+    font-size: large !important;
+  }
+  .mains1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 25px;
+  }
+  .div1 {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 70px;
+    border: 2px solid rgb(173, 172, 172);
+    background-color: whitesmoke;
+  }
+  .All {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mains h6 {
+    margin-left: 80px;
+  }
+}

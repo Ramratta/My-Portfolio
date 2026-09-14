@@ -1,0 +1,42 @@
+.nav-li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  margin-top: 30px;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-profile-page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.navbar-profile-page img {
+  display: flex;
+  border-radius: 50%;
+  display: block;
+  width: 130px;
+  height: 130px;
+}
+.Nav {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.nav-link {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  color: white;
+  gap: 8px;
+}
+.nav-link:hover {
+  color: #f29f67;
+}

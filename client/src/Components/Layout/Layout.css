@@ -8,12 +8,12 @@
 .main-content {
   margin-left: 70px;
   min-height: 100vh;
-  background-color: black;
 }
 .main-content-expanded {
   margin-left: 180px;
 }
 .sidebar {
+  z-index: 1;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,7 @@
   width: 70px;
 }
 .sidebar-troggle {
+  z-index: 1;
   position: fixed;
   cursor: pointer;
   display: flex;

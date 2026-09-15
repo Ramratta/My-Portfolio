@@ -18,28 +18,28 @@ const Menu = ({ toggle }) => {
       {toggle ? (
         <div className="nav-li">
           <div className="nav-lin">
-            <FcHome title="Home" />
+            <FcHome title="Home" size={30} />
           </div>
           <div className="nav-lin">
-            <FcAbout title="About" />
+            <FcAbout title="About" size={30} />
           </div>
           <div className="nav-lin">
-            <FcPortraitMode title="Work Experience" />
+            <FcPortraitMode title="Work Experience" size={30} />
           </div>
           <div className="nav-lin">
-            <FcBiotech title="Tech Stack" />
+            <FcBiotech title="Tech Stack" size={30} />
           </div>
           <div className="nav-lin">
-            <FcReadingEbook title="Education" />
+            <FcReadingEbook title="Education" size={30} />
           </div>
           <div className="nav-lin">
-            <FcVideoProjector title="Project" />
+            <FcVideoProjector title="Project" size={30} />
           </div>
           <div className="nav-lin">
-            <FcVoicePresentation title="Testimonial" />
+            <FcVoicePresentation title="Testimonial" size={30} />
           </div>
           <div className="nav-lin">
-            <FcBusinessContact title="Contact" />
+            <FcBusinessContact title="Contact" size={30} />
           </div>
         </div>
       ) : (
@@ -49,32 +49,32 @@ const Menu = ({ toggle }) => {
           </div>
           <div className="Nav">
             <div className="nav-link">
-              <FcHome />
+              <FcHome size={30} />
               Home
             </div>
             <div className="nav-link">
-              <FcAbout />
+              <FcAbout size={30} />
               About
             </div>
             <div className="nav-link">
-              <FcPortraitMode /> Work Experience
+              <FcPortraitMode size={30} /> Work Experience
             </div>
             <div className="nav-link">
-              <FcBiotech />
+              <FcBiotech size={30} />
               Tech Stack
             </div>
             <div className="nav-link">
-              <FcReadingEbook />
+              <FcReadingEbook size={30} />
               Education
             </div>
             <div className="nav-link">
-              <FcVideoProjector /> Project
+              <FcVideoProjector size={30} /> Project
             </div>
             <div className="nav-link">
-              <FcVoicePresentation /> Testimonial
+              <FcVoicePresentation size={30} /> Testimonial
             </div>
             <div className="nav-link">
-              <FcBusinessContact /> Contact
+              <FcBusinessContact size={30} /> Contact
             </div>
           </div>
         </div>

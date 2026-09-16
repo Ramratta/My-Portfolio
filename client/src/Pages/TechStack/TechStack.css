@@ -18,11 +18,13 @@
   padding: 2px;
 }
 .t h1 {
+  font-size: 500%;
   padding: 30px;
   padding-bottom: 8px;
   border-bottom: 2px solid rgb(124, 205, 124);
 }
 .techn p {
+  font-size: 180%;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -36,15 +38,16 @@
   width: 180px;
   height: 60px;
   background-color: whitesmoke;
-  border: 2px solid rgb(232, 230, 230);
+  border: 2px solid rgb(189, 193, 193);
   border-radius: 25px;
 }
 .ro {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
-  gap: 15px;
+  margin-left: 80px;
+  grid-template-columns: repeat(5, 200px);
   justify-content: center;
-  margin: 10px auto;
+  align-items: center;
+  gap: 15px;
 }
 .row1 {
   display: flex;
@@ -56,7 +59,6 @@
 .row1 p {
   font-size: 20px;
   font-weight: 50px;
-  margin-top: 15px;
 }
 .icon {
   font-size: 20px;
@@ -78,36 +80,54 @@
   color: red;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
   .ro {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    margin-left: 180px;
+    grid-template-columns: repeat(3, 200px);
     justify-content: center;
-    margin: 5px auto;
+    align-items: center;
   }
   .t h1 {
-    padding: 10px;
-    padding-bottom: 4px;
-    border-bottom: 2px solid rgb(124, 205, 124);
-    font-size: large !important;
+    font-size: 400%;
   }
-  .techn p {
-    display: flex;
+  .techn P {
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: large;
+  }
+}
+@media (max-width: 768px) {
+  .ro {
+    display: grid;
+    margin-left: 120px;
+    grid-template-columns: repeat(2, 200px);
     justify-content: center;
-    padding: 6px;
+    align-items: center;
   }
-  .tech-items:hover {
-    cursor: pointer;
-    background-color: #138781;
-    color: white;
-    border: none;
-    transition: 1s;
-    box-shadow:
-      rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px,
-      rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px,
-      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  .t h1 {
+    font-size: 300%;
+  }
+  .techn P {
+    font-weight: bold;
+    margin-left: 80px;
+    font-size: large;
+  }
+}
+@media (max-width: 430px) {
+  .ro {
+    display: grid;
+    margin-left: 30px;
+    grid-template-columns: repeat(1, 200px);
+    justify-content: center;
+    align-items: center;
+  }
+  .t h1 {
+    font-size: 150%;
+  }
+  .techn P {
+    font-weight: bold;
+    margin-left: 2px;
+    font-size: large;
   }
 }

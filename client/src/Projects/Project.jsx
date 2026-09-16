@@ -19,7 +19,7 @@ const Project = () => {
           </h6>
         </div>
         <div className="mains1">
-          <div className="div1">
+          <div className="div2">
             <img src={img} alt="Project Screenshort" />
             <div className="ite">Frontend</div>
             <div className="i">
@@ -28,9 +28,7 @@ const Project = () => {
                 <div className="it">CSS</div>
                 <div className="it">JAVASCRIPT</div>
               </div>
-              <div style={{ padding: 5, fontSize: 30, fontWeight: "Medium" }}>
-                Color Gradient Generator
-              </div>
+              <div className="tem">Color Gradient Generator</div>
               <a
                 href="https://cerulean-sprite-b2ca80.netlify.app/"
                 target="_blank"
@@ -44,11 +42,11 @@ const Project = () => {
                 }}
                 className="it"
               >
-                VEIW
+                VIEW
               </a>
             </div>
           </div>
-          <div className="div1">
+          <div className="div2">
             <img src={Ecomm} alt="Project Screenshort" />
             <div className="ite">Full Stack</div>
             <div className="i">
@@ -58,9 +56,7 @@ const Project = () => {
                 <div className="it">EXPRESS</div>
                 <div className="it">MONGODB</div>
               </div>
-              <div style={{ padding: 5, fontSize: 30, fontWeight: "Medium" }}>
-                MERN Stack E-Commerce Website
-              </div>
+              <div className="tem">MERN Stack E-Commerce Website</div>
               <a
                 href="https://dainty-rabanadas-092edb.netlify.app/"
                 target="_blank"
@@ -74,11 +70,11 @@ const Project = () => {
                 className="it"
                 rel="noreferrer"
               >
-                VEIW
+                VIEW
               </a>
             </div>
           </div>
-          <div className="div1">
+          <div className="div2">
             <img src={mov} alt="Project Screenshort" />
             <div className="ite">Frontend React</div>
             <div className="i">
@@ -88,7 +84,7 @@ const Project = () => {
                 <div className="it">React</div>
                 <div className="it">OMDb API</div>
               </div>
-              <div style={{ padding: 5, fontSize: 30, fontWeight: "Medium" }}>
+              <div className="tem">
                 Movie Explorer Movie Search Web Application
               </div>
               <a
@@ -104,11 +100,11 @@ const Project = () => {
                 className="it"
                 rel="noreferrer"
               >
-                VEIW
+                VIEW
               </a>
             </div>
           </div>
-          <div className="div1">
+          <div className="div2">
             <img src={expen} alt="Project Screenshort" />
             <div className="ite">Frontend</div>
             <div className="i">
@@ -117,6 +113,7 @@ const Project = () => {
                 <div className="it">CSS</div>
                 <div className="it">JAVASCRIPT</div>
               </div>
+              <div className="tem">EXPENSE TRAKER</div>
               <a
                 href="https://bugets.netlify.app/"
                 target="_blank"
@@ -130,7 +127,7 @@ const Project = () => {
                 }}
                 className="it"
               >
-                VEIW
+                VIEW
               </a>
             </div>
           </div>

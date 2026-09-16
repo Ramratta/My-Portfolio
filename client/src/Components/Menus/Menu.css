@@ -3,9 +3,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 40px;
   width: 100%;
-  margin-top: 30px;
+  gap: 40px;
+  margin-top: 40px;
 }
 .navbar {
   width: 100%;
@@ -13,6 +13,7 @@
   flex-direction: column;
 }
 .navbar-profile-page {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -28,9 +29,12 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
 }
 .nav-link {
+  margin-left: 20px;
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -40,3 +44,79 @@
 .nav-link:hover {
   color: #f29f67;
 }
+@media (max-width: 1025px) {
+  .nav-li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .Nav {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+  }
+  .navbar-profile-page {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 769px) {
+  .nav-li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 60px;
+    margin-top: 90px;
+  }
+  .Nav {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+  }
+  .navbar-profile-page {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 431px) {
+  .nav-li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-top: 90px;
+  }
+  .Nav {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+  }
+  .navbar-profile-page {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+/* border: #f29f67 2px solid; */

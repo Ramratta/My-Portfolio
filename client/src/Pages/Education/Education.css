@@ -1,0 +1,90 @@
+.Ed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.E h3 {
+  color: rgb(80, 165, 90);
+}
+.E {
+  border-bottom: 2px solid rgb(80, 165, 90) !important;
+}
+.Ed p {
+  color: rgb(134, 59, 59);
+  font-size: 20px;
+  font-weight: 50px;
+  margin-top: 5px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgb(134, 59, 59);
+}
+.div {
+  padding: 15px;
+  padding-left: 40px;
+  background-color: rgb(136, 193, 136);
+  width: 83%;
+  margin-left: 150px;
+  max-width: none;
+  box-sizing: border-box;
+}
+.div1 {
+  background-color: rgb(136, 193, 136);
+}
+.vertical-timeline::before {
+  background: white;
+  z-index: 1;
+}
+.vertical-timeline-element-icon {
+  z-index: 2;
+}
+@media (max-width: 1025px) {
+  .vertical-timeline::before {
+    margin-left: 5% !important;
+  }
+}
+@media (max-width: 769px) {
+  .div {
+    margin-right: 7%;
+  }
+  .div1 {
+    margin-left: 5%;
+  }
+  .vertical-timeline::before {
+    border: 2px red darkviolet;
+    margin-left: 10% !important;
+  }
+  .vertical-timeline-element-content {
+    border: 2px red darkviolet;
+  }
+}
+@media (max-width: 431px) {
+  .div {
+    width: 90% !important;
+    margin-left: 7% !important;
+  }
+  .div1 {
+    margin-left: 7% !important;
+    width: 95% !important;
+    background-color: rgb(136, 193, 136) !important;
+  }
+  .E {
+    margin-left: 19% !important;
+    font-size: 100% !important;
+  }
+  .vertical-timeline::before {
+    background: white;
+    margin-left: 12% !important;
+    z-index: 1;
+  }
+  .vertical-timeline-element-icon {
+    z-index: 2;
+  }
+  .vertical-timeline-element-content {
+    margin-left: 18% !important;
+    width: 80% !important;
+  }
+}

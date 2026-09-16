@@ -13,7 +13,7 @@ const About = () => {
           <div className="Ab">
             <h1>About me</h1>
           </div>
-          <p>
+          <div className="P">
             Hi, I'm Ram Ratan Pandey, a passionate MERN Full Stack Developer.
             I'm a Computer Science graduate with a strong interest in web
             development. I enjoy creating modern, responsive, and user-friendly
@@ -33,7 +33,7 @@ const About = () => {
             Stack Developer. I want to work on real-world applications and
             challenging projects. I'm passionate about turning ideas into
             functional web experiences. Let's build something great together.!
-          </p>
+          </div>
         </div>
       </div>
     </div>

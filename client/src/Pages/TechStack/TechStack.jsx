@@ -5,8 +5,8 @@ import { TechStackList } from "../../utils/TechStacklist";
 const TechStack = () => {
   return (
     <>
-      <div className="container-fluid Tech">
-        <div className="container techn">
+      <div className="Tech">
+        <div className="techn">
           <div className="t text-uppercase">
             <h1>Technologies Used</h1>
           </div>
@@ -19,7 +19,7 @@ const TechStack = () => {
           {TechStackList.map((tech) => (
             <div className="tech-items" key={tech._id}>
               <div className="row1">
-                <tech.icon color={tech.color} className="icon" />
+                <tech.icon color={tech.color} className="icon" size={30} />
                 <p>{tech.name}</p>
               </div>
             </div>

@@ -1,6 +1,3 @@
-.about {
-  padding-left: 90px;
-}
 .Ab1 {
   width: 50%;
   margin: 5px;
@@ -13,10 +10,12 @@
   justify-content: center;
   align-items: center;
 }
-.Ab1 p {
+.Ab1 .P {
   color: rgb(96, 95, 94);
   height: auto;
   width: auto;
+  font-size: 20px;
+  font-weight: bold;
   padding: 10px;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -26,10 +25,11 @@
   color: rgb(96, 95, 94);
 }
 .rows {
-  margin-inline: 160px;
-  margin: 70px;
+  margin: 10px;
+  margin-top: 20px;
   display: flex;
   gap: 40px;
+  margin-left: 190px;
   border-right: 2px solid rgb(125, 123, 123);
   border-bottom: 2px solid rgb(125, 123, 123);
   border-radius: 20px;
@@ -46,17 +46,100 @@
   width: 100%;
   height: 100%;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
+  .Ab1 .P {
+    font-size: 20px;
+    font-weight: bold;
+    height: 400px;
+    overflow: scroll;
+    font-size: 20px;
+  }
   .rows {
+    margin-inline: 10px;
+    margin-top: 10px;
+    margin-left: 180px;
+    height: 500px;
+  }
+  .about-img {
+    padding: 0;
+    width: 50%;
+    height: 450px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .about-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 769px) {
+  .about {
+    margin: 10px;
+  }
+  .rows {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 180px;
   }
-
-  .about-img,
   .Ab1 {
-    width: calc(100% - 10px);
+    margin-inline: 10px;
+    width: 90%;
+  }
+  .Ab1 .P {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .about-img {
+    width: 90%;
+  }
+  .about-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .about {
+    margin: 10px;
   }
   .rows {
-    margin: 20px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px;
+    margin-left: 80px;
+  }
+  .Ab1 {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+  .Ab {
+    padding: 0;
+    margin: 0;
+  }
+  .Ab1 .P {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .about-img {
+    width: 90%;
+  }
+  .about-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
   }
 }

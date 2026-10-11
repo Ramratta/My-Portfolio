@@ -10,12 +10,26 @@ import "./Education.css";
 const Education = () => {
   return (
     <>
-      <div className="Ed">
+      <div className="Ed" id="Education">
         <p className="E">
           <h3>Education & Qualifications</h3>
         </p>
 
         <VerticalTimeline className="div">
+          <VerticalTimelineElement
+            className="div1"
+            iconStyle={{ background: "black", color: "whitesmoke" }}
+            contentStyle={{ background: "rgb(179, 177, 177)", color: "black" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="2026"
+            icon={<FaGraduationCap />}
+          >
+            <h3 className="vertical-timeline-element-title">Web Devloper</h3>
+            <h4 className="idiv1">
+              Currently Working as <span>Web Developer</span>
+            </h4>
+            <p>spaks india business solution private limited</p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="div1"
             iconStyle={{ background: "black", color: "whitesmoke" }}

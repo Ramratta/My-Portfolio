@@ -15,6 +15,10 @@ function App() {
       <Project />
       <Education />
       <Contact />
+      <div className="Fo">
+        <h4>&copy; 2026 All Rights Reserved</h4>
+        <h4>&copy; 2026 Designed & Developed by Ram Ratan Pandey</h4>
+      </div>
     </>
   );
 }

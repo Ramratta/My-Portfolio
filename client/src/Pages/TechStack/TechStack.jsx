@@ -5,7 +5,7 @@ import { TechStackList } from "../../utils/TechStacklist";
 const TechStack = () => {
   return (
     <>
-      <div className="Tech">
+      <div className="Tech" id="Tech">
         <div className="techn">
           <div className="t text-uppercase">
             <h1>Technologies Used</h1>

@@ -6,7 +6,7 @@ import "./contact.css";
 
 const contact = () => {
   return (
-    <div className="one">
+    <div className="one" id="Contact">
       <div className="two">
         <div className="three">
           <img src={conim} alt="" />
@@ -14,8 +14,20 @@ const contact = () => {
         <div className="three1">
           <p>
             Contact With
-            <FaGithub size={40} />
-            <FaLinkedin color="blue" size={40} />
+            <a
+              href="https://github.com/Ramratta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={40} color="black" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ramrattan-pandey-a66987281"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin color="blue" size={40} />
+            </a>
             <p className="OR">OR</p>
           </p>
           <div className="hi">
@@ -41,7 +53,9 @@ const contact = () => {
                 className="input1"
               />
               <div className="bt">
-                <button className="btn">SEND MESSAGE</button>
+                <button className="btn" type="submit">
+                  SEND MESSAGE
+                </button>
               </div>
             </div>
           </div>

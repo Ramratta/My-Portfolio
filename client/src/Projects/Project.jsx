@@ -8,7 +8,7 @@ import expen from "../assets/Image/exp.png";
 const Project = () => {
   return (
     <>
-      <div className="mai">
+      <div className="mai" id="Project">
         <div className="mains">
           <p className="text-uppercase">
             <h3>Featured Project</h3>

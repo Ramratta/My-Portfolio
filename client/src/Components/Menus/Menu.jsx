@@ -49,32 +49,49 @@ const Menu = ({ toggle }) => {
           </div>
           <div className="Nav">
             <div className="nav-link">
-              <FcHome size={30} />
-              Home
+              <a href="#Home">
+                <FcHome size={30} />
+              </a>
+              <a href="#Home">Home</a>
             </div>
             <div className="nav-link">
-              <FcAbout size={30} />
-              About
+              <a href="#about">
+                <FcAbout size={30} />
+              </a>
+              <a href="#about">About</a>
             </div>
             <div className="nav-link">
-              <FcPortraitMode size={30} /> Work Experience
+              <a href="#Education">
+                <FcPortraitMode size={30} />
+              </a>
+              <a href="#Education">Work Experience</a>
             </div>
             <div className="nav-link">
-              <FcBiotech size={30} />
-              Tech Stack
+              <a href="#Tech">
+                <FcBiotech size={30} />
+              </a>
+              <a href="#Tech">Tech Stack</a>
             </div>
             <div className="nav-link">
-              <FcReadingEbook size={30} />
-              Education
+              <a href="#Education">
+                <FcReadingEbook size={30} />
+              </a>
+              <a href="#Education">Education</a>
             </div>
             <div className="nav-link">
-              <FcVideoProjector size={30} /> Project
+              <a href="#Project">
+                <FcVideoProjector size={30} />
+              </a>
+              <a href="#Project">Project</a>
             </div>
             <div className="nav-link">
               <FcVoicePresentation size={30} /> Testimonial
             </div>
             <div className="nav-link">
-              <FcBusinessContact size={30} /> Contact
+              <a href="#Contact">
+                <FcBusinessContact size={30} />
+              </a>
+              <a href="#Contact">Contact</a>
             </div>
           </div>
         </div>
